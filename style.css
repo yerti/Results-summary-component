@@ -79,3 +79,68 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.summary-text {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.summary-text-title {
+    padding-left: 12px;
+    display: flex;
+}
+.summary-text-title img {
+    padding-right: 5px;
+}
+.summary-text-content {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: gray;
+}
+.summary-text-content span {
+    color: var(--Dark-gray-blue);
+    font-weight: bold;
+}
+.summary-text.reaction {
+    color: var(--Light-red);
+    background-color:  hsl(0, 100%, 96%);
+    border-radius: 10px;
+}
+.summary-text.memory {
+    color: var(--Orangey-yellow);
+    background-color: hsl(39, 100%, 96%);
+    border-radius: 10px;
+}
+.summary-text.verbal {
+    color: var(--Green-teal);
+    background-color: hsl(166, 100%, 96%);
+    border-radius: 10px;
+}
+.summary-text.visual {
+    color: var(--Cobalt-blue);
+    background-color: hsl(234, 85%, 96%);
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+button {
+    width: 270px;
+    height: 50px;
+    color: var(--White);
+    background-color: var(--Dark-gray-blue);
+    border: none;
+    border-radius: 50px;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
